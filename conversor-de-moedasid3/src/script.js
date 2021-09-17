@@ -38,3 +38,5 @@ function ConverterBitcoin() {
   elementoRealConvertido.innerHTML = valorConvertido;
 }
 
+
+console.log("Teste");
