@@ -37,3 +37,4 @@ function ConverterBitcoin() {
   var valorConvertido = "O resultado em real é R$ " + valorBitcoin;
   elementoRealConvertido.innerHTML = valorConvertido;
 }
+
