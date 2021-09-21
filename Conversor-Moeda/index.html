@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor</title>
+</head>
+<body>
+  
+      <div class="container">
+            <h1 class="titulo">Conversor de moedas</h1>
+            <p class="subtittle">Digite a moeda em dólar para conversão</p>
+                <div id="input" class="input">
+                    <input type="number" id="texto"> 
+                    <input type="checkbox" name="Valor" id="ValorReal">Real
+                    <input type="checkbox" name="Valor" id="ValorEuro">Euro
+                </div>
+                <div class="btn" id="div_btn">
+                   <button type="submit" onclick="Converter()">Converter</button>
+                </div>
+                <h2 id="teste"></h2>
+                <h3 id="texto_erro"></h3>
+      </div>
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+body{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+  
+}
+
+.container{
+  text-align: center;
+  padding: 20px;
+  height: 100vh
+}
+
+.titulo {
+  text-align: center;
+  margin: 30px;
+ background: -webkit-linear-gradient(rgb(153, 170, 4), #333);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.subtittle{
+  margin: 5px;
+  color: #ffff
+}
+
+input{
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px
+}
+button{
+  size: 30px;
+}
+.input{
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  accent-color: red;
+  color:aliceblue
+}
+h2{
+  color:#ffff
+}
+h3{
+  color: #ffff
+}
